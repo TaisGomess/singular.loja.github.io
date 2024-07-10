@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singular Store BR - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Singular.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Singular Store BR</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Crochê</a></li>
+            <li><a href="about.html">Roupas</a></li>
+            <li><a href="contact.html">Contato</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <!-- <h2>Welcome to Singular Store BR</h2>-->
+
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Imagens/1.png" alt=""></div>
+                <div class="swiper-slide"><img src="Imagens/2.png" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <div class="corpo-index">
+
+        <h1>Quem Somos</h1>
+
+        <p><!-- Digite aqui o seu texto --> Em um mundo de tendências velozes e produção em massa, surge um refúgio aconchegante onde a arte atemporal do crochê encontra seu lar. Nasce a Singular Store, uma loja dedicada à singularidade, onde cada peça é meticulosamente elaborada à mão, sob medida e sob encomenda, para atender aos desejos e sonhos de cada cliente.
+
+           
+            Nossa história teve início em 2022, quando a paixão pelo crochê transbordou do coração para as mãos, tecendo peças únicas que expressavam a beleza e a delicadeza dessa técnica ancestral. Desde então, a Singular Store se tornou um refúgio para aqueles que apreciam a exclusividade e o valor do feito à mão.
+            
+            
+            Acreditamos que o crochê é mais do que apenas um hobby ou uma técnica de artesanato; é uma forma de arte que nos permite expressar nossa criatividade, contar histórias e transformar sonhos em realidade. Cada peça que criamos é imbuída de amor, carinho e atenção aos detalhes, garantindo que você receba um produto único e especial.
+            
+            
+            Mais do que uma loja, somos uma comunidade de amantes do crochê. Aqui, você encontrará um espaço acolhedor para compartilhar sua paixão, trocar ideias e encontrar inspiração. Acreditamos que o crochê é uma arte que une pessoas, criando laços de amizade e afeto.
+            
+            
+            Se você busca peças únicas e especiais em crochê, feitas com amor e dedicação, a Singular Store é o seu lugar. Venha nos conhecer e se encante com o mundo mágico do crochê!
+            
+            
+            Juntos, desde 2022, entrelaçando sonhos e criando memórias afetivas através da arte do crochê.</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Singular Store BR.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
